@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+<template>
+    <div class="${1:$TM_CURRENT_WORD}">
+
+    </div>
+</template>
+<script>
+    export default {
+        data() {
+            return {}
+        }
+        name: "${1:$TM_CURRENT_WORD}",
+        components: {},
+        props: [],
+        watch: {},
+        computed: {},
+        created () {},
+        mounted () {},
+        methods: {},
+    }
+</script>
+<style>
+    ${1:$TM_CURRENT_WORD} {}
+</style>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>vtemp</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.vue, source.js, source.html</scope>
+</snippet>
